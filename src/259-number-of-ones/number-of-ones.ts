@@ -9,9 +9,9 @@ Example:
 ```
 */
 const numberOfOnes = (integer: number): number => {
-  return (
-    Array.from({ length: integer }, (_, i) => i + 1)
-      .reduce((prev, num) => prev + (num.toString().match(/1/g) || []).length, 0)
+  return Array.from({ length: integer }, (_, index) => index + 1).reduce(
+    (previous, number) => previous + (number.toString().match(/1/g) || []).length,
+    0,
   );
 };
 
