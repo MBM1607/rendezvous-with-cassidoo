@@ -21,6 +21,7 @@
   "rules": {
     "camelcase": "off",
     "no-plusplus": "off",
+    "no-restricted-syntax": "off",
 
     "import/extensions": ["warn", { ".ts": "never", ".tsx": "never" }],
     "import/order": [
@@ -48,6 +49,7 @@
         }
       }
     ],
+    "unicorn/no-array-reduce": "off",
     "unicorn/no-array-for-each": "off",
     "unicorn/no-nested-ternary": "off",
     "unicorn/no-null": "off",

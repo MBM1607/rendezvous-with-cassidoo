@@ -1,11 +1,19 @@
 import { parenthesisSubstring } from './parenthesis-substring';
 
-describe('testing swapArrayPairs', () => {
-  it('(()( should return 2', () => {
-    expect(parenthesisSubstring('(()(')).toBe(2);
-  });
+const tests = [
+  { string: '(()(', solution: 2 },
+  { string: ')()(()))', solution: 6 },
+  { string: ')()(()(()))', solution: 10 },
+  { string: '())(())', solution: 4 },
+  { string: '())(()', solution: 2 },
+  { string: '())(())()()', solution: 8 },
+];
 
-  it(')()(())) should return 6', () => {
-    expect(parenthesisSubstring(')()(()))')).toBe(6);
-  });
+describe('testing parenthesisSubstring', () => {
+  for (const test of tests) {
+    it(`${test.string} should return ${test.solution}`, () => {
+      const solution = parenthesisSubstring(test.string);
+      expect(solution).toBe(test.solution);
+    });
+  }
 });
