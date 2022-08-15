@@ -1,4 +1,4 @@
-# swapPairs
+# parenthesisSubstring
 
 Interview question of the [issue #261 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/friends-and-good-manners-will-carry-you-where/).
 
