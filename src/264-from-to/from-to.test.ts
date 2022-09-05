@@ -12,10 +12,10 @@ const tests = [
 
 describe('testing fromTo', () => {
   for (const test of tests) {
-    it(`gen(${test.min}, ${test.max}) should return value within ${test.solution}`, () => {
+    it(`gen(${test.min}, ${test.max}) should return values ${test.solution}`, () => {
       const generator = fromTo(test.min, test.max);
-      for (let index = 0; index <= 10; index++) {
-        expect(test.solution).toContain(generator());
+      for (let value = test.min; value < test.max; value++) {
+        expect(generator()).toBe(value);
       }
     });
   }

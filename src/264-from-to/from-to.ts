@@ -18,8 +18,13 @@ undefined
 ```
 */
 
-const fromTo = (min: number, max: number): (() => number) => {
-  return () => Math.floor(Math.random() * (max - min + 1) + min);
+const range = (start: number, stop: number, step = 1) =>
+  Array.from({ length: (stop - start) / step + 1 }, (_, index) => start + index * step);
+
+const fromTo = (min: number, max: number): (() => number | undefined) => {
+  const values = range(min, max);
+  let index = 0;
+  return () => values[index++];
 };
 
 export default fromTo;
