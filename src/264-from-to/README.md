@@ -23,7 +23,7 @@ undefined
 
 ## Installing & Running
 
-Just `yarn` to install all dependencies and then `yarn test` to run the tests!
+Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
 
 ## Solution
 

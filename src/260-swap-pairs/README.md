@@ -19,7 +19,7 @@ Something to think about: How would your code change if this were a linked list,
 
 ## Installing & Running
 
-Just `yarn` to install all dependencies and then `yarn test` to run the tests!
+Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
 
 ## Solution
 

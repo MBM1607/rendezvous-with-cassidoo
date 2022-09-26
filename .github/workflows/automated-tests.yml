@@ -17,13 +17,13 @@ jobs:
         uses: actions/cache@v2
         with:
           path: node_modules
-          key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+          key: ${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
 
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
 
       - name: Run tests
-        run: yarn test
+        run: pnpm test
 
       - name: Send coverage report to coveralls.io
         uses: coverallsapp/github-action@v1.1.1
