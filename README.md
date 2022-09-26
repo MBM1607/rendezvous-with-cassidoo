@@ -21,7 +21,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [264 - from-to](src/264-from-to/README.md)
 - [267 - ordinal](src/267-ordinal/README.md)
 
-</details
+</details>
 
 ## Installing & Running
 
