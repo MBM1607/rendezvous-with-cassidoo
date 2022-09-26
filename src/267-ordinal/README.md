@@ -1,4 +1,4 @@
-# parenthesisSubstring
+# Ordinal
 
 Interview question of the [issue #267 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/every-day-brings-new-choices-martha-beck/).
 
