@@ -9,10 +9,24 @@ Each directory is related to a issue and has its own tests.
 
 I started this in the [issue #258](https://buttondown.email/cassidoo/archive/discovering-the-truth-about-ourselves-is-a/)!
 
-# Installing & Running
+## Questions
+
+<details>
+  <summary>Click to expand!</summary>
+
+- [258 - find-intersection](src/258-find-intersection/README.md)
+- [259 - number-of-ones](src/259-number-of-ones/README.md)
+- [260 - swap-pairs](src/260-swap-pairs/README.md)
+- [261 - parenthesis-substring](src/261-parenthesis-substring/README.md)
+- [264 - from-to](src/264-from-to/README.md)
+- [267 - ordinal](src/267-ordinal/README.md)
+
+</details
+
+## Installing & Running
 
 Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
 
-# Credits
+## Credits
 
 Monorepo idea and base cade blatantly stolen from [Miguel Rios](https://github.com/miguelriosoliveira)
