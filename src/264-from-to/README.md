@@ -1,4 +1,4 @@
-# parenthesisSubstring
+# fromTo
 
 Interview question of the [issue #264 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/if-everything-was-perfect-you-would-never-learn/).
 

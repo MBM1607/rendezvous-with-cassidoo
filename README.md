@@ -20,6 +20,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [261 - parenthesis-substring](src/261-parenthesis-substring/README.md)
 - [264 - from-to](src/264-from-to/README.md)
 - [267 - ordinal](src/267-ordinal/README.md)
+- [268 - fibonacci-like](src/268-fibonacci-like/README.md)
 
 </details>
 
