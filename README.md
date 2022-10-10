@@ -21,6 +21,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [264 - from-to](src/264-from-to/README.md)
 - [267 - ordinal](src/267-ordinal/README.md)
 - [268 - fibonacci-like](src/268-fibonacci-like/README.md)
+- [269 - truncate](src/269-truncate/README.md)
 
 </details>
 
