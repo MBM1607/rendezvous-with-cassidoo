@@ -22,6 +22,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [267 - ordinal](src/267-ordinal/README.md)
 - [268 - fibonacci-like](src/268-fibonacci-like/README.md)
 - [269 - truncate](src/269-truncate/README.md)
+- [270 - number-of-passes](src/270-number-of-passes/README.md)
 
 </details>
 
