@@ -23,6 +23,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [268 - fibonacci-like](src/268-fibonacci-like/README.md)
 - [269 - truncate](src/269-truncate/README.md)
 - [270 - number-of-passes](src/270-number-of-passes/README.md)
+- [273 - antidivisor](src/273-antidivisor/README.md)
 
 </details>
 
