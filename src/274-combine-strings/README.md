@@ -27,4 +27,4 @@ Just `pnpm install` to install all dependencies and then `pnpm test` to run the 
 
 ## Solution
 
-![Code Polaroid](./code.png)
+![Code Polaroid](./code-screenshot.png)
