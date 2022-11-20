@@ -18,9 +18,14 @@ Example:
 */
 
 export const combineStrings = (strings: string[], maxSize: number): string[] => {
-  return {
-    5: ['a b c', 'd e f', 'g'],
-    12: ['a b c d e f', 'g'],
-    20: ['alpha beta gamma', 'delta epsilon'],
-  }[maxSize] as string[];
+  const combined = [strings[0]];
+
+  strings.slice(1).forEach(string => {
+    const currentCombined = `${combined[combined.length - 1]} ${string}`;
+
+    if (currentCombined.length > maxSize) combined.push(string);
+    else combined[combined.length - 1] = currentCombined;
+  });
+
+  return combined;
 };
