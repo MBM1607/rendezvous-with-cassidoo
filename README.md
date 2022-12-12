@@ -26,6 +26,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [273 - antidivisor](src/273-antidivisor/README.md)
 - [274 - combine-strings](src/274-combine-strings/README.md)
 - [275 - vertical-slashes](src/275-vertical-slashes/README.md)
+- [278 - rectangle-sum](src/278-rectangle-sum/README.md)
 
 </details>
 
