@@ -28,6 +28,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [275 - vertical-slashes](src/275-vertical-slashes/README.md)
 - [278 - rectangle-sum](src/278-rectangle-sum/README.md)
 - [279 - rectangle-sum](src/279-capital-after-vowel/README.md)
+- [280 - replace-zeros](src/280-replace-zeros/README.md)
 
 </details>
 
