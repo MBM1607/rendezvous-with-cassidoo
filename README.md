@@ -41,4 +41,4 @@ Just `pnpm install` to install all dependencies and then `pnpm test` to run the 
 
 ## Credits
 
-Monorepo idea and base cade blatantly stolen from [Miguel Rios](https://github.com/miguelriosoliveira)
+Monorepo idea and base code blatantly stolen from [Miguel Rios](https://github.com/miguelriosoliveira)
