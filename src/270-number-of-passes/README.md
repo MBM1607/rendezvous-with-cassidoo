@@ -12,11 +12,8 @@ many doors are open after the number of passes.
 ### Example
 
 ```js
-let n = 7
-let numberOfPasses = 3
-
-> passDoors(n, numberOfPasses)
-> 4
+let n = 7;
+let numberOfPasses = 3 > passDoors(n, numberOfPasses) > 4;
 
 // Explanation:
 // 0 means open, 1 means closed

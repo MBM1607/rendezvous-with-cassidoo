@@ -1,4 +1,4 @@
-import fromTo from './from-to';
+import fromTo from "./from-to";
 
 const range = (start: number, stop: number, step = 1) =>
   Array.from({ length: (stop - start) / step + 1 }, (_, index) => start + index * step);
@@ -10,7 +10,7 @@ const tests = [
   { min: 10_080, max: 11_000, solution: range(10_080, 11_000) },
 ];
 
-describe('testing fromTo', () => {
+describe("testing fromTo", () => {
   for (const test of tests) {
     it(`gen(${test.min}, ${test.max}) should return values ${test.solution}`, () => {
       const generator = fromTo(test.min, test.max);

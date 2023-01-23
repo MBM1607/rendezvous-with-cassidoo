@@ -1,4 +1,4 @@
-import { rectangleSum } from './rectangle-sum';
+import { rectangleSum } from "./rectangle-sum";
 
 interface rectangleSumTest {
   input: [number[], [number, number, number, number]];
@@ -22,8 +22,8 @@ const rectangleSumTests: rectangleSumTest[] = [
   },
 ];
 
-describe('testing rectangleSum', () => {
-  it.each(rectangleSumTests)('should return correct sum', test => {
+describe("testing rectangleSum", () => {
+  it.each(rectangleSumTests)("should return correct sum", test => {
     expect(rectangleSum(...test.input)).toStrictEqual(test.output);
   });
 });

@@ -13,20 +13,20 @@ number.
 */
 
 const suffixes = [
-  'th',
-  'st',
-  'nd',
-  'rd',
-  'th',
-  'th',
-  'th',
-  'th',
-  'th',
-  'th',
-  'th',
-  'th',
-  'th',
-  'th',
+  "th",
+  "st",
+  "nd",
+  "rd",
+  "th",
+  "th",
+  "th",
+  "th",
+  "th",
+  "th",
+  "th",
+  "th",
+  "th",
+  "th",
 ];
 
 const ordinal = (number: number): string => {

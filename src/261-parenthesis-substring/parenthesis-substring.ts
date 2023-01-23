@@ -14,11 +14,11 @@ Example
 */
 
 const parenthesisSubstring = (parenthesisString: string): number => {
-  const stack: Array<'('> = [];
+  const stack: Array<"("> = [];
   let longest = 0;
 
   [...parenthesisString].reduce((currentLongest, char) => {
-    if (char === '(') {
+    if (char === "(") {
       stack.push(char);
       return currentLongest;
     }

@@ -13,11 +13,8 @@ Given two arrays A and B, return the indices at which the two arrays intersect. 
 ### Example
 
 ```js
-let listA = [1,4,5,6]
-let listB = [2,3,4,5,6]
-
-> findIntersection(listA, listB)
-> [1, 2]
+let listA = [1, 4, 5, 6];
+let listB = [2, 3, 4, 5, 6] > findIntersection(listA, listB) > [1, 2];
 ```
 
 ## Installing & Running

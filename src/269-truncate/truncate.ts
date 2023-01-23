@@ -15,5 +15,5 @@ let n = 3
 */
 
 export const truncate = (string: string, length: number): string => {
-  return string.replace(new RegExp(`([^\\W\\d_]{${length}})[^\\W\\d_]*`, 'gi'), '$1');
+  return string.replace(new RegExp(`([^\\W\\d_]{${length}})[^\\W\\d_]*`, "gi"), "$1");
 };

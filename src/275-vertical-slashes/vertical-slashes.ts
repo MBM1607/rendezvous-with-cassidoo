@@ -24,11 +24,11 @@ Example:
 */
 
 export const verticalSlashes = (slashes: string): string => {
-  let output = '\n';
+  let output = "\n";
   let leftPad = 0;
 
   for (const slash of slashes) {
-    output += `${' '.repeat(slash === '/' ? --leftPad : leftPad++)}${slash}\n`;
+    output += `${" ".repeat(slash === "/" ? --leftPad : leftPad++)}${slash}\n`;
   }
 
   return output;

@@ -1,4 +1,4 @@
-import { fibonacciErrors, getFibonacciLike, isFibonacciLike } from './fibonacci-like';
+import { fibonacciErrors, getFibonacciLike, isFibonacciLike } from "./fibonacci-like";
 
 interface getFibonacciLikeTest {
   input: [number, number, number];
@@ -71,22 +71,22 @@ const isFibonacciLikeTests: isFibonacciLikeTest[] = [
   { sequence: [4, -1, 3, 2, 5], result: false },
 ];
 
-describe('testing getFibonacciLike', () => {
-  it.each(getFibonacciLikeTests)('should return fibonacci like list of given length', test => {
+describe("testing getFibonacciLike", () => {
+  it.each(getFibonacciLikeTests)("should return fibonacci like list of given length", test => {
     expect(getFibonacciLike(...test.input)).toStrictEqual(test.sequence);
   });
 
   it.each(invalidGetFibonacciLikeTests)(
-    'should throw appropriate error for invalid inputs',
+    "should throw appropriate error for invalid inputs",
     test => {
       expect(() => getFibonacciLike(...test.input)).toThrow(test.error);
     },
   );
 });
 
-describe('testing isFibonacciLike', () => {
+describe("testing isFibonacciLike", () => {
   it.each(isFibonacciLikeTests)(
-    'should return boolean (true if sequence is a fibonacci like)',
+    "should return boolean (true if sequence is a fibonacci like)",
     test => {
       expect(isFibonacciLike(test.sequence)).toStrictEqual(test.result);
     },

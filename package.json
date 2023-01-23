@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --fix",
+    "lint": "eslint --fix && prettier -w --plugin-search-dir=. .",
     "test": "jest --runInBand",
     "prepare": "husky install"
   },

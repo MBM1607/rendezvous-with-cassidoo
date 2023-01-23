@@ -10,17 +10,9 @@ rectangle in n, return the sum of all of the numbers in the rectangle.
 ### Example
 
 ```js
-n = [6,  9, -7,  3,
-     8, -1, -6, -4,
-     2, -7,  7, -7,
-    -1,  4,  7,  9]
+n = [6, 9, -7, 3, 8, -1, -6, -4, 2, -7, 7, -7, -1, 4, 7, 9];
 
-m = [-1, 8, -7, 2]
-
-> rectangleSum(n, m)
-> 2
-> rectangleSum(n, [6, 3, 2, -7])
-> 3
+m = [-1, 8, -7, 2] > rectangleSum(n, m) > 2 > rectangleSum(n, [6, 3, 2, -7]) > 3;
 ```
 
 ## Installing & Running

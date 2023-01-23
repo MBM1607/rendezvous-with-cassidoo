@@ -11,13 +11,7 @@ the sequence is “fibonacci-like”.
 ### Example
 
 ```js
-let n = 5
-
-> fibLike(10, 20, n)
-> [10, 20, 30, 50, 80]
-
-> fibLike(3, 7, n)
-> [3, 7, 10, 17, 27]
+let n = 5 > fibLike(10, 20, n) > [10, 20, 30, 50, 80] > fibLike(3, 7, n) > [3, 7, 10, 17, 27];
 ```
 
 ## Installing & Running

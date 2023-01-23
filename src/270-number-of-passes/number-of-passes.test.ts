@@ -1,4 +1,4 @@
-import { numberOfPasses } from './number-of-passes';
+import { numberOfPasses } from "./number-of-passes";
 
 interface numberOfPassesTest {
   input: [number, number];
@@ -38,8 +38,8 @@ const numberOfPassesTests: numberOfPassesTest[] = [
   },
 ];
 
-describe('testing numberOfPasses', () => {
-  it.each(numberOfPassesTests)('should return correct number of doors open after passes', test => {
+describe("testing numberOfPasses", () => {
+  it.each(numberOfPassesTests)("should return correct number of doors open after passes", test => {
     expect(numberOfPasses(...test.input)).toStrictEqual(test.output);
   });
 });

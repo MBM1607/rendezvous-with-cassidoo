@@ -9,16 +9,11 @@ Write a function fromTo that produces a generator, that will produce values in a
 ### Example
 
 ```js
-let gen = fromTo(5,7)
-
-> gen()
-5
-> gen()
-6
-> gen()
-7
-> gen()
-undefined
+let gen = fromTo(5, 7) > gen();
+5 > gen();
+6 > gen();
+7 > gen();
+undefined;
 ```
 
 ## Installing & Running

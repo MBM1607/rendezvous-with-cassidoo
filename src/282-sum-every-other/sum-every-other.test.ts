@@ -1,4 +1,4 @@
-import { sumEveryOther } from './sum-every-other';
+import { sumEveryOther } from "./sum-every-other";
 
 interface sumEveryOtherTest {
   input: number;
@@ -24,8 +24,8 @@ const sumEveryOtherTests: sumEveryOtherTest[] = [
   },
 ];
 
-describe('testing sumEveryOther', () => {
-  it.each(sumEveryOtherTests)('given a number, sum every second digit in that number', test => {
+describe("testing sumEveryOther", () => {
+  it.each(sumEveryOtherTests)("given a number, sum every second digit in that number", test => {
     expect(sumEveryOther(test.input)).toStrictEqual(test.output);
   });
 });

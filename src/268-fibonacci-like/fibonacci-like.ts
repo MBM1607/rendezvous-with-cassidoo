@@ -17,10 +17,10 @@ let n = 5
 */
 
 export enum fibonacciErrors {
-  Length = 'Specified length must be greater than 2',
+  Length = "Specified length must be greater than 2",
   NaN = "All Inputs must be a number and NaN doesn't count",
-  Negative = 'Negative inputs are not allowed',
-  IncorrectOrder = 'first value in sequence has to be <= second value',
+  Negative = "Negative inputs are not allowed",
+  IncorrectOrder = "first value in sequence has to be <= second value",
 }
 
 export const getFibonacciLike = (first: number, second: number, length: number): number[] => {

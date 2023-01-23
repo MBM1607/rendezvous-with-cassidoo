@@ -1,4 +1,4 @@
-import { verticalSlashes } from './vertical-slashes';
+import { verticalSlashes } from "./vertical-slashes";
 
 interface verticalSlashTest {
   input: string;
@@ -31,8 +31,8 @@ const verticalSlashTests: verticalSlashTest[] = [
   },
 ];
 
-describe('testing verticalSlashes', () => {
-  it.each(verticalSlashTests)('should return correct downward drawn line', test => {
+describe("testing verticalSlashes", () => {
+  it.each(verticalSlashTests)("should return correct downward drawn line", test => {
     expect(verticalSlashes(test.input)).toStrictEqual(test.output);
   });
 });
