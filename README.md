@@ -31,6 +31,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [280 - replace-zeros](src/280-replace-zeros/README.md)
 - [281 - max-subarray](src/281-max-subarray/README.md)
 - [282 - sum-every-other](src/282-sum-every-other/README.md)
+- [284 - missing-bits](src/284-missing-bits/README.md)
 
 </details>
 
