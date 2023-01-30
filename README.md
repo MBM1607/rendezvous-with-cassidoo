@@ -32,6 +32,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [281 - max-subarray](src/281-max-subarray/README.md)
 - [282 - sum-every-other](src/282-sum-every-other/README.md)
 - [284 - missing-bits](src/284-missing-bits/README.md)
+- [285 - generate-arrays](src/285-generate-arrays/README.md)
 
 </details>
 
