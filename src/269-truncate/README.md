@@ -1,4 +1,4 @@
-# truncate
+# Truncate
 
 Interview question of the [issue #269 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/instant-gratification-takes-too-long-carrie-fisher/).
 

@@ -1,4 +1,4 @@
-# max-subarray
+# Sum Every Other
 
 Interview question of the [issue #282 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/what-you-do-every-day-matters-more-than-what-you/).
 

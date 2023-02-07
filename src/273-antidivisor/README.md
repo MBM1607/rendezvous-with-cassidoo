@@ -1,4 +1,4 @@
-# antidivisor
+# Antidivisor
 
 Interview question of the [issue #273 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/i-dont-think-of-all-the-misery-but-of-the-beauty-4964/).
 

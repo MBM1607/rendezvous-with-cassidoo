@@ -1,4 +1,4 @@
-# max-subarray
+# Max Subarray
 
 Interview question of the [issue #281 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/from-a-small-seed-a-mighty-trunk-may-grow/).
 

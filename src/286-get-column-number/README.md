@@ -1,4 +1,4 @@
-# max-subarray
+# Get Column Number
 
 Interview question of the [issue #286 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/talent-without-working-hard-is-nothing-cristiano/).
 

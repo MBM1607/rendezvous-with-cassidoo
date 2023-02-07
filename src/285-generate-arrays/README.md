@@ -1,4 +1,4 @@
-# max-subarray
+# Generate Arrays
 
 Interview question of the [issue #285 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/if-you-want-to-feel-good-you-have-to-go-out-and/).
 

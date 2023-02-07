@@ -1,4 +1,4 @@
-# rectangle-sum
+# Rectangle Sum
 
 Interview question of the [issue #278 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/life-has-no-blessing-like-a-prudent-friend/).
 

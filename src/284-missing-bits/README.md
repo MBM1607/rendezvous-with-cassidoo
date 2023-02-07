@@ -1,4 +1,4 @@
-# max-subarray
+# Missing Bits
 
 Interview question of the [issue #284 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/the-best-prophet-of-the-future-is-the-past-lord/).
 

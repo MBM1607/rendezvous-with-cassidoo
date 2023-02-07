@@ -1,4 +1,4 @@
-# capital-after-vowel
+# Capital After Vowel
 
 Interview question of the [issue #279 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/dont-be-afraid-of-hard-work-nothing-worthwhile/).
 

@@ -1,4 +1,4 @@
-# numberOfPasses
+# Number of Passes
 
 Interview question of the [issue #270 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/i-never-regretted-what-i-turned-down-angela/).
 

@@ -1,4 +1,4 @@
-# replace-zeros
+# Replace Zeros
 
 Interview question of the [issue #280 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/love-is-all-we-have-the-only-way-that-each-can/).
 
