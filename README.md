@@ -34,6 +34,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [284 - missing-bits](src/284-missing-bits/README.md)
 - [285 - generate-arrays](src/285-generate-arrays/README.md)
 - [286 - get-column-number](src/286-get-column-number/README.md)
+- [288 - num-balanced](src/288-num-balanced/README.md)
 
 </details>
 
