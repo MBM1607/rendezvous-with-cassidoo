@@ -35,6 +35,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [285 - generate-arrays](src/285-generate-arrays/README.md)
 - [286 - get-column-number](src/286-get-column-number/README.md)
 - [288 - num-balanced](src/288-num-balanced/README.md)
+- [289 - repeated-groups](src/289-repeated-groups/README.md)
 
 </details>
 
