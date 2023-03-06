@@ -36,6 +36,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [286 - get-column-number](src/286-get-column-number/README.md)
 - [288 - num-balanced](src/288-num-balanced/README.md)
 - [289 - repeated-groups](src/289-repeated-groups/README.md)
+- [290 - scramble](src/290-scramble/README.md)
 
 </details>
 
