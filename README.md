@@ -37,6 +37,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [288 - num-balanced](src/288-num-balanced/README.md)
 - [289 - repeated-groups](src/289-repeated-groups/README.md)
 - [290 - scramble](src/290-scramble/README.md)
+- [291 - fraction-math](src/291-fraction-math/README.md)
 
 </details>
 
