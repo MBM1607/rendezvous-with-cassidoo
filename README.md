@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/MBM1607/rendezvous-with-cassidoo/badge.svg?branch=master)](https://coveralls.io/github/MBM1607/rendezvous-with-cassidoo?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/MBM1607/rendezvous-with-cassidoo/badge.svg?branch=main)](https://coveralls.io/github/MBM1607/rendezvous-with-cassidoo?branch=main)
 [![Automated Tests](https://github.com/MBM1607/rendezvous-with-cassidoo/actions/workflows/automated-tests.yml/badge.svg?event=push)](https://github.com/MBM1607/rendezvous-with-cassidoo/actions/workflows/automated-tests.yml)
 
 # Rendezvous With Cassidoo
