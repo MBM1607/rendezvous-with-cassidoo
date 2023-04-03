@@ -39,6 +39,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [290 - scramble](src/290-scramble/README.md)
 - [291 - fraction-math](src/291-fraction-math/README.md)
 - [293 - roll-dice](src/293-roll-dice/README.md)
+- [294 - source-character-count](src/294-source-character-count/README.md)
 
 </details>
 
