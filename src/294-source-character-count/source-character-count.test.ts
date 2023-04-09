@@ -1,8 +1,8 @@
 import { convertNumberToWords, sourceCharacterCount } from "./source-character-count";
 
 describe("sourceCharacterCount", () => {
-  it("should return the number of chracters in source file", () => {
-    expect(sourceCharacterCount()).toEqual("two thousand five hundred one");
+  it("should return the number of chracters in source file", async () => {
+    expect(await sourceCharacterCount()).toEqual("two thousand three hundred eighty four");
   });
 });
 

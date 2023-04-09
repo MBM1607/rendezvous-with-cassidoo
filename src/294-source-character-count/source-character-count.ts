@@ -1,6 +1,6 @@
-import { execSync } from "child_process";
+import { readFile } from "fs/promises";
 
-export const ONES_AND_TEENS = [
+export const UNITS = [
   "zero",
   "one",
   "two",
@@ -35,11 +35,11 @@ export const TENS = [
 ] as const;
 
 export const convertNumberToWords = (number: number): string => {
-  if (number < 20) return ONES_AND_TEENS[number];
+  if (number < 20) return UNITS[number];
   if (number < 100) {
     const tens = Math.floor(number / 10);
     const ones = number % 10;
-    return ones === 0 ? TENS[tens - 2] : `${TENS[tens - 2]} ${ONES_AND_TEENS[ones]}`;
+    return ones === 0 ? TENS[tens - 2] : `${TENS[tens - 2]} ${UNITS[ones]}`;
   }
   if (number < 1_000) {
     const hundreds = Math.floor(number / 100);
@@ -79,11 +79,7 @@ export const convertNumberToWords = (number: number): string => {
   return "ITS OVER 9000!";
 };
 
-export const sourceCharacterCount = () => {
-  const characters = Number(
-    execSync("wc -c src/294-source-character-count/source-character-count.ts")
-      .toString()
-      .split(" ")[0],
-  );
-  return convertNumberToWords(characters);
+export const sourceCharacterCount = async () => {
+  const length = (await readFile(__filename, "utf-8")).length;
+  return convertNumberToWords(length);
 };
