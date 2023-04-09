@@ -14,4 +14,5 @@ Just `pnpm install` to install all dependencies and then `pnpm test` to run the 
 
 ## Solution
 
-![Code Polaroid](./code-screenshot.png)
+![Code Polaroid | Source Character Count](./screenshots/read-file.png)
+![Code Polaroid | Number to Words](./screenshots/converter.png)
