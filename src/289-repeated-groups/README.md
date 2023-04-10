@@ -16,10 +16,6 @@ Given a list of numbers, return all groups of repeating consecutive numbers.
 [[1, 1], [0, 0], [4, 4, 4], [9, 9]]
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code-screenshot.png)

@@ -17,10 +17,6 @@ regex?
 > "xaaBeueKaDii"
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code-screenshot.png)

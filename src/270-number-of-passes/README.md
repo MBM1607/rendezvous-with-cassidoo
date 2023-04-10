@@ -23,10 +23,6 @@ let numberOfPasses = 3 > passDoors(n, numberOfPasses) > 4;
 // Pass 3:  0 1 1 1 0 0 0
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code.png)

@@ -16,10 +16,6 @@ let gen = fromTo(5, 7) > gen();
 undefined;
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code.png)

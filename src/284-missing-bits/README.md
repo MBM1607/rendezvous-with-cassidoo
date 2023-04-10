@@ -21,10 +21,6 @@ print it. If the consecutive values differ by exactly two, then insert the missi
 > "[1,2,3,...,20,...,27]"
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code-screenshot.png)

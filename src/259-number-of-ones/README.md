@@ -14,10 +14,6 @@ less than or equal to n.
 > 7 // 1, 10, 11, 12, 13, 14
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code.png)

@@ -25,10 +25,6 @@ Given a positive integer n, return all of its anti-divisors. Anti-divisors are n
 > [4,7,12,36,52,67,156]
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code.png)

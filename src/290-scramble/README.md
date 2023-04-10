@@ -15,10 +15,6 @@ Write a function that takes an input sentence, and mixes up the insides of words
 > "A qciuk bwron fox jmepud oevr the lzay dog."
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code-screenshot.png)

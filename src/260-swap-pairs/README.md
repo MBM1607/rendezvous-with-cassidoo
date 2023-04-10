@@ -17,10 +17,6 @@ Something to think about: How would your code change if this were a linked list,
 > []
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code.png)

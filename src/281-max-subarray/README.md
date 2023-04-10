@@ -18,10 +18,6 @@ than arr.length, you can choose what you want to return.
 > [0,5]
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code-screenshot.png)

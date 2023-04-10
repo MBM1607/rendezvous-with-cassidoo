@@ -19,10 +19,6 @@ Given a string in dice notation, return a random integer you can get by rolling 
 > 21
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code-screenshot.png)

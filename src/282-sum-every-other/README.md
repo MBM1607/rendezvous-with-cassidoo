@@ -19,10 +19,6 @@ Given a number, sum every second digit in that number.
 > 1 // 0+0+1
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code-screenshot.png)

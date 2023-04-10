@@ -17,10 +17,6 @@ let listA = [1, 4, 5, 6];
 let listB = [2, 3, 4, 5, 6] > findIntersection(listA, listB) > [1, 2];
 ```
 
-## Installing & Running
-
-Just `pnpm install` to install all dependencies and then `pnpm test` to run the tests!
-
 ## Solution
 
 ![Code Polaroid](./code.png)
