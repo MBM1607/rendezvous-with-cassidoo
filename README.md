@@ -41,6 +41,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [293 - roll-dice](src/293-roll-dice/README.md)
 - [294 - source-character-count](src/294-source-character-count/README.md)
 - [295 - star-angle-sum](src/295-star-angle-sum/README.md)
+- [296 - max-points-on-line](src/296-max-points-on-line/README.md)
 
 </details>
 
