@@ -44,6 +44,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [296 - max-points-on-line](src/296-max-points-on-line/README.md)
 - [298 - remove-zeroes](src/298-remove-zeroes/README.md)
 - [299 - odd-square-sum](src/299-odd-square-sum/README.md)
+- [300 - binary-palindrome](src/300-binary-palindrome/README.md)
 
 </details>
 
