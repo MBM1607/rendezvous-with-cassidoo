@@ -45,6 +45,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [298 - remove-zeroes](src/298-remove-zeroes/README.md)
 - [299 - odd-square-sum](src/299-odd-square-sum/README.md)
 - [300 - binary-palindrome](src/300-binary-palindrome/README.md)
+- [301 - scrabble-score](src/301-scrabble-score/README.md)
 
 </details>
 
