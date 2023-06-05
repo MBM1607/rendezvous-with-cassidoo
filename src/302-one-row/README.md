@@ -1,4 +1,4 @@
-# Remove Zeroes
+# One Row
 
 Interview question of the [issue #302 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/1868/).
 

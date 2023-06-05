@@ -1,4 +1,4 @@
-# Remove Zeroes
+# Binary Palindrome
 
 Interview question of the [issue #300 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/1545/).
 

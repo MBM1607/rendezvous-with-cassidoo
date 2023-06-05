@@ -1,4 +1,4 @@
-# Remove Zeroes
+# Scrabble Score
 
 Interview question of the [issue #301 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/if-you-really-want-something-you-can-figure-out/).
 
