@@ -47,6 +47,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [300 - binary-palindrome](src/300-binary-palindrome/README.md)
 - [301 - scrabble-score](src/301-scrabble-score/README.md)
 - [302 - one-row](src/302-one-row/README.md)
+- [303 - mmm-pie](src/303-mmm-pie/README.md)
 
 </details>
 
