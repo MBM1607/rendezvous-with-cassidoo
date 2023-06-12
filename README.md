@@ -48,6 +48,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [301 - scrabble-score](src/301-scrabble-score/README.md)
 - [302 - one-row](src/302-one-row/README.md)
 - [303 - mmm-pie](src/303-mmm-pie/README.md)
+- [304 - trim-array](src/304-trim-array/README.md)
 
 </details>
 
