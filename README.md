@@ -49,6 +49,9 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [302 - one-row](src/302-one-row/README.md)
 - [303 - mmm-pie](src/303-mmm-pie/README.md)
 - [304 - trim-array](src/304-trim-array/README.md)
+- [305 - depth-json](src/305-depth-json/README.md)
+- [306 - missing-letters](src/306-missing-letters/README.md)
+- [307 - reversed-squares](src/307-reversed-squares/README.md)
 
 </details>
 
