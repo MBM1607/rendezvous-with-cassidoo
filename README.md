@@ -52,6 +52,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [305 - depth-json](src/305-depth-json/README.md)
 - [306 - missing-letters](src/306-missing-letters/README.md)
 - [307 - reversed-squares](src/307-reversed-squares/README.md)
+- [311 - is-anagram](src/311-is-anagram/README.md)
 
 </details>
 
