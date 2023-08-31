@@ -54,6 +54,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [307 - reversed-squares](src/307-reversed-squares/README.md)
 - [311 - is-anagram](src/311-is-anagram/README.md)
 - [313 - faulty-keyboard](src/313-faulty-keyboard/README.md)
+- [315 - count-and-say](src/315-count-and-say/README.md)
 
 </details>
 
