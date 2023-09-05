@@ -1,0 +1,25 @@
+import { minSubs } from "./min-subs";
+
+interface minSubsTestCase {
+  input: [number[], number];
+  output: number[];
+}
+
+const minSubsTestCases: minSubsTestCase[] = [
+  {
+    input: [[1, 3, 20, 4, 8, 9, 11], 3],
+    output: [4, 8, 9],
+  },
+  {
+    input: [[4, 4, 4, 4, 8], 2],
+    output: [4, 4],
+  },
+];
+
+describe("minSubs", () => {
+  minSubsTestCases.forEach(({ input: [array, length], output }) => {
+    it(`should return ${output} for array ${array} and length ${length}`, () => {
+      expect(minSubs(array, length)).toEqual(output);
+    });
+  });
+});
