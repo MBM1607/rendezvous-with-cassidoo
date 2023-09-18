@@ -57,6 +57,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [315 - count-and-say](src/315-count-and-say/README.md)
 - [316 - min-subs](src/316-min-subs/README.md)
 - [317 - separate-and-sort](src/317-separate-and-sort/README.md)
+- [318 - build-staircase](src/318-build-staircase/README.md)
 
 </details>
 
