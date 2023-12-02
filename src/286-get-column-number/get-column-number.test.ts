@@ -19,7 +19,10 @@ const getColumnNumberTests: getColumnNumberTest[] = [
 ];
 
 describe("testing getColumnNumber", () => {
-  it.each(getColumnNumberTests)("given a column name, return an equivalent column number", test => {
-    expect(getColumnNumber(test.input)).toStrictEqual(test.output);
-  });
+  it.each(getColumnNumberTests)(
+    "given a column name, return an equivalent column number",
+    test => {
+      expect(getColumnNumber(test.input)).toStrictEqual(test.output);
+    },
+  );
 });

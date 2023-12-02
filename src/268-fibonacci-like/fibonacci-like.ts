@@ -38,7 +38,8 @@ export const getFibonacciLike = (first: number, second: number, length: number):
 };
 
 export const isFibonacciLike = (sequence: number[]): boolean => {
-  if (sequence.length < 3 || sequence.some(value => Number.isNaN(value) || value < 0)) return false;
+  if (sequence.length < 3 || sequence.some(value => Number.isNaN(value) || value < 0))
+    return false;
 
   return sequence
     .slice(2)
