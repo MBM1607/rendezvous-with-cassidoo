@@ -25,7 +25,7 @@ type ItemCombination = {
   cost: number;
 };
 
-export const getMostCostEfficientCombination = (items: Item[], dailyGoal: number): number => {
+export const getMinCostFromCombinations = (items: Item[], dailyGoal: number): number => {
   let minimumCost = Infinity;
 
   const combine = (currentItems: Item[], remainingItems: Item[]) => {
@@ -64,5 +64,5 @@ export const minCostForCalories = (
     price: prices[index],
   }));
 
-  return getMostCostEfficientCombination(items, dailyGoal);
+  return getMinCostFromCombinations(items, dailyGoal);
 };
