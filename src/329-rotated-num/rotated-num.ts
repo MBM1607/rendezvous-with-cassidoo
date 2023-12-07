@@ -17,4 +17,16 @@ Example:
 ```
 */
 
-export const rotatedNum = (array: number[]): number => array.lastIndexOf(Math.min(...array), -1);
+export const rotatedNum = (array: number[]): number => {
+  let start = 0;
+  let end = array.length - 1;
+
+  while (start < end) {
+    const mid = Math.floor((start + end) / 2);
+
+    if (array[mid] > array[end]) start = mid + 1;
+    else end = mid;
+  }
+
+  return start;
+};
