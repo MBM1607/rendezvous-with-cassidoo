@@ -61,6 +61,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [325 - score-word-game](src/325-score-word-game/README.md)
 - [328 - min-cost-for-calories](src/328-min-cost-for-calories/README.md)
 - [329 - rotated-num](src/329-rotated-num/README.md)
+- [330 - majority](src/330-majority/README.md)
 
 </details>
 
