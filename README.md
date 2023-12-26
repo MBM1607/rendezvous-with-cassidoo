@@ -63,6 +63,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [329 - rotated-num](src/329-rotated-num/README.md)
 - [330 - majority](src/330-majority/README.md)
 - [331 - is-bitonic](src/331-is-bitonic/README.md)
+- [332 - return-gift](src/332-return-gift/README.md)
 
 </details>
 
