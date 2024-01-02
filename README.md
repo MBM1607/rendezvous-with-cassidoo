@@ -64,6 +64,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [330 - majority](src/330-majority/README.md)
 - [331 - is-bitonic](src/331-is-bitonic/README.md)
 - [332 - return-gift](src/332-return-gift/README.md)
+- [333 - happy-new-year](src/333-happy-new-year/README.md)
 
 </details>
 
