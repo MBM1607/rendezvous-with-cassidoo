@@ -32,7 +32,10 @@ export const letters = (lettersArray: string[]): string[] => {
 
   const combine = (currentLetters: string[], remainingLetters: string[]) => {
     if (remainingLetters.length === 0) {
-      if (currentLetters.length > 0) permute([], currentLetters);
+      if (currentLetters.length === 0) return;
+
+      if (currentLetters.length === 1) resultSet.add(currentLetters[0]);
+      else permute([], currentLetters);
     } else {
       const [first, ...rest] = remainingLetters;
       combine([...currentLetters, first], rest);
