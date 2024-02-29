@@ -70,6 +70,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [337 - days-between](src/337-days-between/README.md)
 - [339 - from-to](src/339-from-to/README.md)
 - [340 - word-length-product](src/340-word-length-product/README.md)
+- [341 - remove-digit](src/341-remove-digit/README.md)
 
 </details>
 
