@@ -72,6 +72,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [340 - word-length-product](src/340-word-length-product/README.md)
 - [341 - remove-digit](src/341-remove-digit/README.md)
 - [346 - unique-sum](src/346-unique-sum/README.md)
+- [350 - translate-right-shit](src/350-translate-right-shift/README.md)
 
 </details>
 
