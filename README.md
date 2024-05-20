@@ -74,6 +74,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [346 - unique-sum](src/346-unique-sum/README.md)
 - [350 - translate-right-shit](src/350-translate-right-shift/README.md)
 - [352 - max-product](src/352-max-product/README.md)
+- [353 - fix-inverted-punctuation](src/353-fix-inverted-punctuation/README.md)
 
 </details>
 
