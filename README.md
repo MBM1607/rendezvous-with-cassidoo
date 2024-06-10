@@ -76,6 +76,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [352 - max-product](src/352-max-product/README.md)
 - [353 - fix-inverted-punctuation](src/353-fix-inverted-punctuation/README.md)
 - [355 - only-evens](src/355-only-evens/README.md)
+- [356 - four-sum](src/356-four-sum/README.md)
 
 </details>
 
