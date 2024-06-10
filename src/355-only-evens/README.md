@@ -1,6 +1,6 @@
 # 🌈 Only Evens
 
-Interview question of the [issue #354 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/the-cure-to-boredom-is-curiosity-there-is-no-cure/).
+Interview question of the [issue #355 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/the-cure-to-boredom-is-curiosity-there-is-no-cure/).
 
 ## The Question
 
