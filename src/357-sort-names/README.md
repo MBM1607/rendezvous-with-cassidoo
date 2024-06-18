@@ -1,6 +1,6 @@
 # 🚘 Sort Names
 
-Interview question of the [issue #356 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/life-is-trying-things-to-see-if-they-work-ray/).
+Interview question of the [issue #357 of rendezvous with cassidoo](https://buttondown.email/cassidoo/archive/life-is-trying-things-to-see-if-they-work-ray/).
 
 ## The Question
 
