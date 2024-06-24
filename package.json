@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --fix && prettier -w --plugin-search-dir=. .",
-    "test": "jest --runInBand",
-    "prepare": "husky install"
+    "test": "jest --runInBand"
   },
   "devDependencies": {
     "@types/jest": "^28.1.4",
@@ -21,7 +20,6 @@
     "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-unicorn": "^43.0.2",
-    "husky": "^8.0.1",
     "jest": "^28.1.2",
     "prettier": "^2.7.1",
     "ts-jest": "^28.0.5",
