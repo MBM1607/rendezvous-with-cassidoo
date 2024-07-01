@@ -79,6 +79,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [356 - four-sum](src/356-four-sum/README.md)
 - [357 - sort-names](src/357-sort-names/README.md)
 - [358 - daily-temperatures](src/358-daily-temperatures/README.md)
+- [359 - fruit-stand](src/359-fruit-stand/README.md)
 
 </details>
 
