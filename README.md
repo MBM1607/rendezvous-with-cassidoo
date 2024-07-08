@@ -80,6 +80,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [357 - sort-names](src/357-sort-names/README.md)
 - [358 - daily-temperatures](src/358-daily-temperatures/README.md)
 - [359 - fruit-stand](src/359-fruit-stand/README.md)
+- [360 - can-plant-flowers](src/360-can-plant-flowers/README.md)
 
 </details>
 
