@@ -83,6 +83,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [360 - can-plant-flowers](src/360-can-plant-flowers/README.md)
 - [361 - increasing-subsequence](src/361-increasing-subsequence/README.md)
 - [362 - word-break](src/362-word-break/README.md)
+- [363 - convert-units](src/363-convert-units/README.md)
 
 </details>
 
