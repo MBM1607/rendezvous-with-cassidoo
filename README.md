@@ -85,6 +85,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [362 - word-break](src/362-word-break/README.md)
 - [363 - convert-units](src/363-convert-units/README.md)
 - [364 - squares](src/364-squares/README.md)
+- [365 - find-unused](src/365-find-unused/README.md)
 
 </details>
 
