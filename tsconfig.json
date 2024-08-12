@@ -8,8 +8,7 @@
     "noImplicitAny": true,
     "noImplicitOverride": true,
     "noImplicitThis": true,
-    // TODO Turn it on after replacing jest with vitest & fixing all the errors
-    // "noUncheckedIndexedAccess": true,
+    "noUncheckedIndexedAccess": true,
     "strictFunctionTypes": true,
     "strictBindCallApply": true,
     "strictNullChecks": true,
@@ -19,9 +18,8 @@
     "noUnusedParameters": false,
 
     // modules
-    // TODO Turn it on after replacing jest with vitest and switch moduleResolution to NodeNext
-    // "module": "NodeNext",
-    "moduleResolution": "Node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
 
     // emit
@@ -37,12 +35,11 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    // TODO Turn it on after replacing jest with vitest
-    // "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": true,
 
     // language and environment
-    "lib": ["ES2022", "ESNext.Array"],
-    "target": "ES2022",
+    "lib": ["ESNext", "ESNext.Array"],
+    "target": "ESNext",
     "moduleDetection": "force",
 
     // output formatting
