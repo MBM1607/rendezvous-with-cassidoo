@@ -5,10 +5,9 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --fix && prettier -w --plugin-search-dir=. .",
-    "test": "jest --runInBand"
+    "test": "vitest"
   },
   "devDependencies": {
-    "@types/jest": "^28.1.4",
     "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
@@ -20,10 +19,9 @@
     "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-unicorn": "^43.0.2",
-    "jest": "^28.1.2",
     "prettier": "^2.7.1",
-    "ts-jest": "^28.0.5",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "vitest": "^2.0.5"
   },
   "type": "module",
   "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
