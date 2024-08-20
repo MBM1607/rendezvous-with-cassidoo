@@ -86,6 +86,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [363 - convert-units](src/363-convert-units/README.md)
 - [364 - squares](src/364-squares/README.md)
 - [365 - find-unused](src/365-find-unused/README.md)
+- [366 - calculate-execution-times](src/366-calculate-execution-times/README.md)
 
 </details>
 
