@@ -1,3 +1,4 @@
+import { describe, expect, test } from "vitest";
 import { findUnused } from "./find-unused.js";
 
 type TestCase = {
@@ -20,8 +21,10 @@ const testCases: TestCase[] = [
   },
 ];
 
-testCases.forEach(({ lines, unusedVariables }) => {
-  test(`findUnused(${lines})`, () => {
-    expect(findUnused(lines)).toEqual(unusedVariables);
+describe("findUnused", () => {
+  testCases.forEach(({ lines, unusedVariables }) => {
+    test(`should return ${unusedVariables} for ${lines}`, () => {
+      expect(findUnused(lines)).toEqual(unusedVariables);
+    });
   });
 });

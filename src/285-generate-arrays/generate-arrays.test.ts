@@ -1,4 +1,5 @@
-import { generateArrays } from "./generate-arrays";
+import { describe, expect, test } from "vitest";
+import { generateArrays } from "./generate-arrays.js";
 
 interface generateArraysTest {
   input: number;
@@ -36,10 +37,10 @@ const generateArraysTests: generateArraysTest[] = [
 ];
 
 describe("testing generateArrays", () => {
-  it.each(generateArraysTests)(
+  test.each(generateArraysTests)(
     "given a number, return an array with every element itself an array from 1 to n",
-    test => {
-      expect(generateArrays(test.input)).toStrictEqual(test.output);
+    t => {
+      expect(generateArrays(t.input)).toStrictEqual(t.output);
     },
   );
 });

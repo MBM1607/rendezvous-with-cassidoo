@@ -1,4 +1,7 @@
-import { Digit, removeDigit } from "./remove-digit";
+import { describe, expect, test } from "vitest";
+import { removeDigit } from "./remove-digit.js";
+
+import type { Digit } from "./remove-digit.js";
 
 type RemoveDigitTestCase = {
   input: [number, Digit];
@@ -54,7 +57,7 @@ const REMOVE_DIGIT_TEST_CASES: RemoveDigitTestCase[] = [
 
 describe("removeDigit", () => {
   REMOVE_DIGIT_TEST_CASES.forEach(({ input: [num, digit], expected }) => {
-    it(`should return ${expected} for num=${num} and digit=${digit}`, () => {
+    test(`should return ${expected} for num=${num} and digit=${digit}`, () => {
       expect(removeDigit(num, digit)).toBe(expected);
     });
   });

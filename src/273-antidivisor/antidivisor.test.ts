@@ -1,4 +1,5 @@
-import { antidivisor } from "./antidivisor";
+import { describe, expect, test } from "vitest";
+import { antidivisor } from "./antidivisor.js";
 
 interface antidivisorTest {
   input: number;
@@ -29,7 +30,7 @@ const antidivisorTests: antidivisorTest[] = [
 ];
 
 describe("testing antidivisor", () => {
-  it.each(antidivisorTests)("should return correct antidivisors", test => {
-    expect(antidivisor(test.input)).toStrictEqual(test.output);
+  test.each(antidivisorTests)("should return correct antidivisors", t => {
+    expect(antidivisor(t.input)).toStrictEqual(t.output);
   });
 });

@@ -1,4 +1,5 @@
-import { isAnagram } from "./is-anagram";
+import { describe, expect, test } from "vitest";
+import { isAnagram } from "./is-anagram.js";
 
 interface isAnagramTestCase {
   input: [string, string];

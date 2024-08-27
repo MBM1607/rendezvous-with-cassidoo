@@ -1,4 +1,5 @@
-import { rotatedNum } from "./rotated-num";
+import { describe, expect, test } from "vitest";
+import { rotatedNum } from "./rotated-num.js";
 
 type RotatedNumTestCase = {
   input: number[];
@@ -42,7 +43,7 @@ const ROTATED_NUM_TEST_CASES: RotatedNumTestCase[] = [
 
 describe("rotatedNum", () => {
   ROTATED_NUM_TEST_CASES.forEach(({ input, output }) => {
-    it(`${input} -> ${output}`, () => {
+    test(`${input} -> ${output}`, () => {
       expect(rotatedNum(input)).toEqual(output);
     });
   });

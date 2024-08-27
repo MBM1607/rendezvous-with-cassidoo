@@ -1,4 +1,5 @@
-import { minCostForCalories } from "./min-cost-for-calories";
+import { describe, expect, test } from "vitest";
+import { minCostForCalories } from "./min-cost-for-calories.js";
 
 type MinCostForCaloriesTestCase = {
   input: {

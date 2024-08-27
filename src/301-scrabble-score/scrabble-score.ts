@@ -19,7 +19,7 @@ Example:
 ```
 */
 
-import { readFileSync } from "fs";
+import { readFileSync } from "fs.js";
 
 const POINTS_10 = ["Q", "Z"];
 const POINTS_8 = ["J", "X"];

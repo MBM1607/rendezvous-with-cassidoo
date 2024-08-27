@@ -1,4 +1,5 @@
-import { repeatedGroups } from "./repeated-groups";
+import { describe, expect, test } from "vitest";
+import { repeatedGroups } from "./repeated-groups.js";
 
 interface repeatedGroupsTest {
   input: number[];
@@ -33,7 +34,7 @@ const repeatedGroupsTests: repeatedGroupsTest[] = [
 ];
 
 describe("testing repeatedGroups", () => {
-  it.each(repeatedGroupsTests)("given a group, return the repeated groups", test => {
-    expect(repeatedGroups(test.input)).toStrictEqual(test.output);
+  test.each(repeatedGroupsTests)("given a group, return the repeated groups", t => {
+    expect(repeatedGroups(t.input)).toStrictEqual(t.output);
   });
 });

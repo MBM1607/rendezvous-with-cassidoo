@@ -1,4 +1,5 @@
-import { sortNames } from "./sort-names";
+import { describe, expect, test } from "vitest";
+import { sortNames } from "./sort-names.js";
 
 type Test = {
   input: string[];

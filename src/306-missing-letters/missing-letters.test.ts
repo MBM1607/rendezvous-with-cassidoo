@@ -1,4 +1,5 @@
-import { missingLetters } from "./missing-letters";
+import { describe, expect, test } from "vitest";
+import { missingLetters } from "./missing-letters.js";
 
 interface missingLettersTestCase {
   input: string[];

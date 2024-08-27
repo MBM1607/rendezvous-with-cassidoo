@@ -1,4 +1,5 @@
-import { rectangleSum } from "./rectangle-sum";
+import { describe, expect, test } from "vitest";
+import { rectangleSum } from "./rectangle-sum.js";
 
 interface rectangleSumTest {
   input: [number[], [number, number, number, number]];
@@ -23,7 +24,7 @@ const rectangleSumTests: rectangleSumTest[] = [
 ];
 
 describe("testing rectangleSum", () => {
-  it.each(rectangleSumTests)("should return correct sum", test => {
+  test.each(rectangleSumTests)("should return correct sum", test => {
     expect(rectangleSum(...test.input)).toStrictEqual(test.output);
   });
 });

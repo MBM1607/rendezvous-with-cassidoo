@@ -1,4 +1,5 @@
-import { fourSum } from "./four-sum";
+import { describe, expect, test } from "vitest";
+import { fourSum } from "./four-sum.js";
 
 type Test = {
   input: {

@@ -1,4 +1,5 @@
-import { isScrabbleWord, scrabbleScore } from "./scrabble-score";
+import { describe, expect, test } from "vitest";
+import { isScrabbleWord, scrabbleScore } from "./scrabble-score.js";
 
 interface ScrabbleScoreTestCase {
   input: string;
@@ -32,14 +33,14 @@ const IS_SCRABBLE_WORD_TEST_CASES: IsScrabbleWordTestCase[] = [
 
 describe("scrabbleScore", () =>
   SCRABBLE_SCORE_TEST_CASES.forEach(({ input, output }) => {
-    it(`should return ${output} for ${input}`, () => {
+    test(`should return ${output} for ${input}`, () => {
       expect(scrabbleScore(input)).toEqual(output);
     });
   }));
 
 describe("isScrabbleWord", () =>
   IS_SCRABBLE_WORD_TEST_CASES.forEach(({ input, output }) => {
-    it(`should return ${output} for ${input}`, () => {
+    test(`should return ${output} for ${input}`, () => {
       expect(isScrabbleWord(input)).toEqual(output);
     });
   }));

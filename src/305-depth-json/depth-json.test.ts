@@ -1,4 +1,5 @@
-import { depthJson } from "./depth-json";
+import { describe, expect, test } from "vitest";
+import { depthJson } from "./depth-json.js";
 
 interface depthJsonTestCase {
   input: any[];

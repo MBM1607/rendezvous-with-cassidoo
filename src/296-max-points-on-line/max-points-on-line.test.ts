@@ -1,4 +1,7 @@
-import { maxPointsOnLine, Point } from "./max-points-on-line";
+import { describe, expect, test } from "vitest";
+import { maxPointsOnLine } from "./max-points-on-line.js";
+
+import type { Point } from "./max-points-on-line.js";
 
 interface MaxPointsOnLineTestCase {
   input: Point[];

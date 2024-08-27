@@ -1,4 +1,5 @@
-import fromTo from "./from-to";
+import { describe, expect, test } from "vitest";
+import fromTo from "./from-to.js";
 
 const range = (start: number, stop: number, step = 1) =>
   Array.from({ length: (stop - start) / step + 1 }, (_, index) => start + index * step);
@@ -11,10 +12,10 @@ const tests = [
 ];
 
 describe("testing fromTo", () => {
-  for (const test of tests) {
-    it(`gen(${test.min}, ${test.max}) should return values ${test.solution}`, () => {
-      const generator = fromTo(test.min, test.max);
-      for (let value = test.min; value < test.max; value++) {
+  for (const t of tests) {
+    test(`gen(${t.min}, ${t.max}) should return values ${t.solution}`, () => {
+      const generator = fromTo(t.min, t.max);
+      for (let value = t.min; value < t.max; value++) {
         expect(generator()).toBe(value);
       }
     });

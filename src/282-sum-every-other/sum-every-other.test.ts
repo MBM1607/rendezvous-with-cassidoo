@@ -1,4 +1,5 @@
-import { sumEveryOther } from "./sum-every-other";
+import { describe, expect, test } from "vitest";
+import { sumEveryOther } from "./sum-every-other.js";
 
 interface sumEveryOtherTest {
   input: number;
@@ -25,7 +26,7 @@ const sumEveryOtherTests: sumEveryOtherTest[] = [
 ];
 
 describe("testing sumEveryOther", () => {
-  it.each(sumEveryOtherTests)("given a number, sum every second digit in that number", test => {
-    expect(sumEveryOther(test.input)).toStrictEqual(test.output);
+  test.each(sumEveryOtherTests)("given a number, sum every second digit in that number", t => {
+    expect(sumEveryOther(t.input)).toStrictEqual(t.output);
   });
 });

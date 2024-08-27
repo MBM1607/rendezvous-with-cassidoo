@@ -1,4 +1,5 @@
-import { parenthesisSubstring } from "./parenthesis-substring";
+import { describe, expect, test } from "vitest";
+import { parenthesisSubstring } from "./parenthesis-substring.js";
 
 const tests = [
   { string: "(()(", solution: 2 },
@@ -10,10 +11,10 @@ const tests = [
 ];
 
 describe("testing parenthesisSubstring", () => {
-  for (const test of tests) {
-    it(`${test.string} should return ${test.solution}`, () => {
-      const solution = parenthesisSubstring(test.string);
-      expect(solution).toBe(test.solution);
+  for (const t of tests) {
+    test(`${t.string} should return ${t.solution}`, () => {
+      const solution = parenthesisSubstring(t.string);
+      expect(solution).toBe(t.solution);
     });
   }
 });

@@ -1,4 +1,5 @@
-import { squares } from "./squares";
+import { describe, expect, test } from "vitest";
+import { squares } from "./squares.js";
 
 type TestCase = {
   input: number;
@@ -23,7 +24,7 @@ const TEST_CASES: TestCase[] = [
 
 describe("convertUnits", () => {
   for (const { input, output } of TEST_CASES) {
-    it(`should return ${output} for ${input}`, () => {
+    test(`should return ${output} for ${input}`, () => {
       expect(squares(input)).toBe(output);
     });
   }

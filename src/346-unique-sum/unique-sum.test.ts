@@ -1,4 +1,5 @@
-import { uniqueSum } from "./unique-sum";
+import { describe, expect, test } from "vitest";
+import { uniqueSum } from "./unique-sum.js";
 
 type UniqueSumTestCase = {
   input: number[];

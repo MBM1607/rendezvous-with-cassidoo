@@ -1,4 +1,5 @@
-import { fractionMath } from "./fraction-math";
+import { describe, expect, test } from "vitest";
+import { fractionMath } from "./fraction-math.js";
 
 interface FractionMathTest {
   input: [string, "add" | "subtract" | "multiply" | "divide", string];
@@ -33,7 +34,7 @@ const fractionMathTests: FractionMathTest[] = [
 ];
 
 describe("testing fractionMath", () => {
-  it.each(fractionMathTests)("should return %p", test => {
-    expect(fractionMath(...test.input)).toEqual(test.output);
+  test.each(fractionMathTests)("should return %p", t => {
+    expect(fractionMath(...t.input)).toEqual(t.output);
   });
 });

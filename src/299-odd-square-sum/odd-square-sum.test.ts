@@ -1,4 +1,5 @@
-import { oddSquareSum } from "./odd-square-sum";
+import { describe, expect, test } from "vitest";
+import { oddSquareSum } from "./odd-square-sum.js";
 
 interface OddSquareSumTestCase {
   input: number;
@@ -23,7 +24,7 @@ const ODD_SQUARE_SUM_TEST_CASES: OddSquareSumTestCase[] = [
 ];
 
 describe("oddSquareSum", () => {
-  it("should return the sum of odd-square numbers less than a given integer n", () => {
+  test("should return the sum of odd-square numbers less than a given integer n", () => {
     ODD_SQUARE_SUM_TEST_CASES.forEach(({ input, expected }) => {
       expect(oddSquareSum(input)).toEqual(expected);
     });

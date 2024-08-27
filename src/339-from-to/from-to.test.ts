@@ -1,7 +1,8 @@
-import { fromTo } from "./from-to";
+import { describe, expect, test } from "vitest";
+import { fromTo } from "./from-to.js";
 
 describe("fromTo", () => {
-  it("should produce a generator that produces values in a range", () => {
+  test("should produce a generator that produces values in a range", () => {
     let range = fromTo(0, 3);
     expect(range()).toBe(0);
     expect(range()).toBe(1);

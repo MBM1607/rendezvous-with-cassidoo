@@ -1,4 +1,5 @@
-import { translateRightShift } from "./translate-right-shift";
+import { describe, expect, test } from "vitest";
+import { translateRightShift } from "./translate-right-shift.js";
 
 type TranslateRightShiftTestCase = {
   text: string;
@@ -18,7 +19,7 @@ const TRANSLATE_RIGHT_SHIFT_TEST_CASES: TranslateRightShiftTestCase[] = [
 
 describe("translateRightShift", () => {
   TRANSLATE_RIGHT_SHIFT_TEST_CASES.forEach(({ text, expected }) => {
-    it(`translates "${text}" to "${expected}"`, () => {
+    test(`translates "${text}" to "${expected}"`, () => {
       expect(translateRightShift(text)).toBe(expected);
     });
   });

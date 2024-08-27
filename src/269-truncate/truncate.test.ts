@@ -1,4 +1,5 @@
-import { truncate } from "./truncate";
+import { describe, expect, test } from "vitest";
+import { truncate } from "./truncate.js";
 
 interface truncateTest {
   input: [string, number];
@@ -33,7 +34,7 @@ const truncateTests: truncateTest[] = [
 ];
 
 describe("testing truncate", () => {
-  it.each(truncateTests)("should return string with words truncated to length n", test => {
-    expect(truncate(...test.input)).toStrictEqual(test.output);
+  test.each(truncateTests)("should return string with words truncated to length n", t => {
+    expect(truncate(...t.input)).toStrictEqual(t.output);
   });
 });

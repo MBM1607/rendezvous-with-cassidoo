@@ -1,7 +1,8 @@
-import { convertNumberToWords, sourceCharacterCount } from "./source-character-count";
+import { describe, expect, test } from "vitest";
+import { convertNumberToWords, sourceCharacterCount } from "./source-character-count.js";
 
 describe("sourceCharacterCount", () => {
-  it("should return the number of chracters in source file", async () => {
+  test("should return the number of chracters in source file", async () => {
     expect(await sourceCharacterCount()).toEqual("two thousand three hundred eighty four");
   });
 });
@@ -171,7 +172,7 @@ const NumberToWordTestCases: NumberToWordTestCase[] = [
 ];
 
 describe("convertNumberToWords", () => {
-  it("should return the number in words", () => {
+  test("should return the number in words", () => {
     NumberToWordTestCases.forEach(testCase => {
       expect(convertNumberToWords(testCase.number)).toEqual(testCase.word);
     });

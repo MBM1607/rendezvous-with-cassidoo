@@ -1,4 +1,5 @@
-import { getColumnNumber } from "./get-column-number";
+import { describe, expect, test } from "vitest";
+import { getColumnNumber } from "./get-column-number.js";
 
 interface getColumnNumberTest {
   input: string;
@@ -19,10 +20,7 @@ const getColumnNumberTests: getColumnNumberTest[] = [
 ];
 
 describe("testing getColumnNumber", () => {
-  it.each(getColumnNumberTests)(
-    "given a column name, return an equivalent column number",
-    test => {
-      expect(getColumnNumber(test.input)).toStrictEqual(test.output);
-    },
-  );
+  test.each(getColumnNumberTests)("given a column name, return an equivalent column number", t => {
+    expect(getColumnNumber(t.input)).toStrictEqual(t.output);
+  });
 });

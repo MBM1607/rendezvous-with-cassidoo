@@ -1,4 +1,5 @@
-import { rollDice, rollSingleDice } from "./roll-dice";
+import { describe, expect, test } from "vitest";
+import { rollDice, rollSingleDice } from "./roll-dice.js";
 
 interface RollDiceTest {
   input: string;

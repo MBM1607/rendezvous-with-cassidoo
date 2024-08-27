@@ -1,4 +1,5 @@
-import { convertColor } from "./convert-color";
+import { describe, expect, test } from "vitest";
+import { convertColor } from "./convert-color.js";
 
 interface ConvertColorTest {
   input: [from: string, to: string, color: string];

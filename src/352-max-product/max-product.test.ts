@@ -1,4 +1,5 @@
-import { maxProduct } from "./max-product";
+import { describe, expect, test } from "vitest";
+import { maxProduct } from "./max-product.js";
 
 type Test = {
   input: number[];
@@ -22,7 +23,7 @@ const TESTS: Test[] = [
 
 describe("maxProduct", () => {
   TESTS.forEach(({ input, output }) => {
-    it(`returns ${output} for input ${input}`, () => {
+    test(`returns ${output} for input ${input}`, () => {
       expect(maxProduct(input)).toBe(output);
     });
   });

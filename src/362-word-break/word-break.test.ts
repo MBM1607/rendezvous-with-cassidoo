@@ -1,4 +1,5 @@
-import { wordBreak } from "./word-break";
+import { describe, expect, test } from "vitest";
+import { wordBreak } from "./word-break.js";
 
 type TestCase = {
   input: {

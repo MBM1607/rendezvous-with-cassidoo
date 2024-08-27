@@ -1,4 +1,5 @@
-import { FruitStand } from "./fruit-stand";
+import { beforeEach, describe, expect, test } from "vitest";
+import { FruitStand } from "./fruit-stand.js";
 
 describe("FruitStand", () => {
   let fruitStand: FruitStand;

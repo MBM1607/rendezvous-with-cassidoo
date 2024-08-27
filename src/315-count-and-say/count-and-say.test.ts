@@ -1,4 +1,5 @@
-import { countAndSay } from "./count-and-say";
+import { describe, expect, test } from "vitest";
+import { countAndSay } from "./count-and-say.js";
 
 interface countAndSayTestCase {
   input: number;

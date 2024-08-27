@@ -1,4 +1,5 @@
-import { numberOfPasses } from "./number-of-passes";
+import { describe, expect, test } from "vitest";
+import { numberOfPasses } from "./number-of-passes.js";
 
 interface numberOfPassesTest {
   input: [number, number];
@@ -39,7 +40,7 @@ const numberOfPassesTests: numberOfPassesTest[] = [
 ];
 
 describe("testing numberOfPasses", () => {
-  it.each(numberOfPassesTests)("should return correct number of doors open after passes", test => {
-    expect(numberOfPasses(...test.input)).toStrictEqual(test.output);
+  test.each(numberOfPassesTests)("should return correct number of doors open after passes", t => {
+    expect(numberOfPasses(...t.input)).toStrictEqual(t.output);
   });
 });

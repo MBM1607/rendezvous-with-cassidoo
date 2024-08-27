@@ -1,4 +1,5 @@
-import { buildStaircase } from "./build-staircase";
+import { describe, expect, test } from "vitest";
+import { buildStaircase } from "./build-staircase.js";
 
 type BuildStaircaseTestCase = {
   blocks: number;
@@ -31,7 +32,7 @@ const testCases: BuildStaircaseTestCase[] = [
 
 describe("buildStaircase", () => {
   testCases.forEach(({ blocks, expectedSteps }) => {
-    it(`should return ${expectedSteps} steps for ${blocks} blocks`, () => {
+    test(`should return ${expectedSteps} steps for ${blocks} blocks`, () => {
       expect(buildStaircase(blocks)).toEqual(expectedSteps);
     });
   });

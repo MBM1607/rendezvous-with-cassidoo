@@ -1,4 +1,5 @@
-import { isBitonic } from "./is-bitonic";
+import { describe, expect, test } from "vitest";
+import { isBitonic } from "./is-bitonic.js";
 
 type isBitonicTestCase = {
   input: number[];
@@ -46,7 +47,7 @@ const IS_BITONIC_TEST_CASES: isBitonicTestCase[] = [
 
 describe("isBitonic", () => {
   IS_BITONIC_TEST_CASES.forEach(({ input, expected }) => {
-    it(`returns ${expected} for ${input}`, () => {
+    test(`returns ${expected} for ${input}`, () => {
       expect(isBitonic(input)).toEqual(expected);
     });
   });

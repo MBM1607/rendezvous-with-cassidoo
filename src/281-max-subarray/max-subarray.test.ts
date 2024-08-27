@@ -1,4 +1,5 @@
-import { maxSubarray } from "./max-subarray";
+import { describe, expect, test } from "vitest";
+import { maxSubarray } from "./max-subarray.js";
 
 interface maxSubarrayTest {
   input: [number[], number];
@@ -21,10 +22,10 @@ const maxSubarrayTests: maxSubarrayTest[] = [
 ];
 
 describe("testing maxSubarray", () => {
-  it.each(maxSubarrayTests)(
+  test.each(maxSubarrayTests)(
     "should replace each consecutive run of the digit 0 with its length",
-    test => {
-      expect(maxSubarray(...test.input)).toStrictEqual(test.output);
+    t => {
+      expect(maxSubarray(...t.input)).toStrictEqual(t.output);
     },
   );
 });

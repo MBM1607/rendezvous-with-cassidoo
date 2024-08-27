@@ -1,4 +1,5 @@
-import { letters } from "./letters";
+import { describe, expect, test } from "vitest";
+import { letters } from "./letters.js";
 
 type LettersTestCase = {
   input: string[];
@@ -38,7 +39,7 @@ const LETTERS_TEST_CASES: LettersTestCase[] = [
 
 describe("letters", () => {
   LETTERS_TEST_CASES.forEach(({ input, expected }) => {
-    it(`returns ${expected} for ${input}`, () => {
+    test(`returns ${expected} for ${input}`, () => {
       expected.forEach(expectedString => {
         expect(letters(input)).toContain(expectedString);
       });

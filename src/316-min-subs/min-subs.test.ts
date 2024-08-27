@@ -1,4 +1,5 @@
-import { minSubs } from "./min-subs";
+import { describe, expect, test } from "vitest";
+import { minSubs } from "./min-subs.js";
 
 interface minSubsTestCase {
   input: [number[], number];
@@ -18,7 +19,7 @@ const minSubsTestCases: minSubsTestCase[] = [
 
 describe("minSubs", () => {
   minSubsTestCases.forEach(({ input: [array, length], output }) => {
-    it(`should return ${output} for array ${array} and length ${length}`, () => {
+    test(`should return ${output} for array ${array} and length ${length}`, () => {
       expect(minSubs(array, length)).toEqual(output);
     });
   });

@@ -1,4 +1,5 @@
-import { onlyEvens } from "./only-evens";
+import { describe, expect, test } from "vitest";
+import { onlyEvens } from "./only-evens.js";
 
 type Test = {
   input: number[];
@@ -26,7 +27,7 @@ const TESTS: Test[] = [
 
 describe("onlyEvens", () => {
   TESTS.forEach(({ input, output }) => {
-    it(`should return ${output} for ${input}`, () => {
+    test(`should return ${output} for ${input}`, () => {
       expect(onlyEvens(input)).toEqual(output);
     });
   });

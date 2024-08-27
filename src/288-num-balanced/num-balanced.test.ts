@@ -1,4 +1,5 @@
-import { numBalanced } from "./num-balanced";
+import { describe, expect, test } from "vitest";
+import { numBalanced } from "./num-balanced.js";
 
 interface numBalancedTest {
   input: string;
@@ -17,10 +18,10 @@ const numBalancedTests: numBalancedTest[] = [
 ];
 
 describe("testing numBalanced", () => {
-  it.each(numBalancedTests)(
+  test.each(numBalancedTests)(
     "given a parenthesis string, return the number of parenthesis required for balancing",
-    test => {
-      expect(numBalanced(test.input)).toStrictEqual(test.output);
+    t => {
+      expect(numBalanced(t.input)).toStrictEqual(t.output);
     },
   );
 });

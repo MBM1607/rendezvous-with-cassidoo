@@ -1,4 +1,5 @@
-import { verticalSlashes } from "./vertical-slashes";
+import { describe, expect, test } from "vitest";
+import { verticalSlashes } from "./vertical-slashes.js";
 
 interface verticalSlashTest {
   input: string;
@@ -32,7 +33,7 @@ const verticalSlashTests: verticalSlashTest[] = [
 ];
 
 describe("testing verticalSlashes", () => {
-  it.each(verticalSlashTests)("should return correct downward drawn line", test => {
-    expect(verticalSlashes(test.input)).toStrictEqual(test.output);
+  test.each(verticalSlashTests)("should return correct downward drawn line", t => {
+    expect(verticalSlashes(t.input)).toStrictEqual(t.output);
   });
 });

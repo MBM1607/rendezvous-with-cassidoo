@@ -1,4 +1,5 @@
-import { missingBits } from "./missing-bits";
+import { describe, expect, test } from "vitest";
+import { missingBits } from "./missing-bits.js";
 
 interface missingBitsTest {
   input: number[];
@@ -25,10 +26,10 @@ const sumEveryOtherTests: missingBitsTest[] = [
 ];
 
 describe("testing missingBits", () => {
-  it.each(sumEveryOtherTests)(
+  test.each(sumEveryOtherTests)(
     "given a list of numbers, return a string with the missing bits in it's place",
-    test => {
-      expect(missingBits(test.input)).toStrictEqual(test.output);
+    t => {
+      expect(missingBits(t.input)).toStrictEqual(t.output);
     },
   );
 });

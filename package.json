@@ -8,6 +8,7 @@
     "test": "vitest"
   },
   "devDependencies": {
+    "@types/eslint": "^9.6.1",
     "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
@@ -24,5 +25,5 @@
     "vitest": "^2.0.5"
   },
   "type": "module",
-  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
+  "packageManager": "pnpm@9.9.0"
 }

@@ -1,4 +1,5 @@
-import ordinal from "./ordinal";
+import { describe, expect, test } from "vitest";
+import ordinal from "./ordinal.js";
 
 const tests = [
   { number: 1, ordinal: "1st" },
@@ -37,9 +38,9 @@ const tests = [
 ];
 
 describe("testing ordinal", () => {
-  for (const test of tests) {
-    it(`ordinal(${test.number}) should return ${test.ordinal}`, () => {
-      expect(ordinal(test.number)).toBe(test.ordinal);
+  for (const t of tests) {
+    test(`ordinal(${t.number}) should return ${t.ordinal}`, () => {
+      expect(ordinal(t.number)).toBe(t.ordinal);
     });
   }
 });

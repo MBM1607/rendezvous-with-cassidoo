@@ -1,4 +1,5 @@
-import { majority } from "./majority";
+import { describe, expect, test } from "vitest";
+import { majority } from "./majority.js";
 
 type MajorityTestCase = {
   input: number[];

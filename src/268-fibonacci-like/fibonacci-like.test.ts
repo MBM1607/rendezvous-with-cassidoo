@@ -1,4 +1,5 @@
-import { fibonacciErrors, getFibonacciLike, isFibonacciLike } from "./fibonacci-like";
+import { describe, expect, test } from "vitest";
+import { fibonacciErrors, getFibonacciLike, isFibonacciLike } from "./fibonacci-like.js";
 
 interface getFibonacciLikeTest {
   input: [number, number, number];
@@ -72,23 +73,23 @@ const isFibonacciLikeTests: isFibonacciLikeTest[] = [
 ];
 
 describe("testing getFibonacciLike", () => {
-  it.each(getFibonacciLikeTests)("should return fibonacci like list of given length", test => {
-    expect(getFibonacciLike(...test.input)).toStrictEqual(test.sequence);
+  test.each(getFibonacciLikeTests)("should return fibonacci like list of given length", t => {
+    expect(getFibonacciLike(...t.input)).toStrictEqual(t.sequence);
   });
 
-  it.each(invalidGetFibonacciLikeTests)(
+  test.each(invalidGetFibonacciLikeTests)(
     "should throw appropriate error for invalid inputs",
-    test => {
-      expect(() => getFibonacciLike(...test.input)).toThrow(test.error);
+    t => {
+      expect(() => getFibonacciLike(...t.input)).toThrow(t.error);
     },
   );
 });
 
 describe("testing isFibonacciLike", () => {
-  it.each(isFibonacciLikeTests)(
+  test.each(isFibonacciLikeTests)(
     "should return boolean (true if sequence is a fibonacci like)",
-    test => {
-      expect(isFibonacciLike(test.sequence)).toStrictEqual(test.result);
+    t => {
+      expect(isFibonacciLike(t.sequence)).toStrictEqual(t.result);
     },
   );
 });

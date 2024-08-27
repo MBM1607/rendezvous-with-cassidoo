@@ -1,4 +1,5 @@
-import { reversedSquares } from "./reversed-squares";
+import { describe, expect, test } from "vitest";
+import { reversedSquares } from "./reversed-squares.js";
 
 interface reversedSquaresTestCase {
   input: number;

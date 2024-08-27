@@ -1,4 +1,7 @@
-import { convertUnits, TLengthUnit } from "./convert-units";
+import { describe, expect, test } from "vitest";
+import { convertUnits } from "./convert-units.js";
+
+import type { TLengthUnit } from "./convert-units.js";
 
 type TestCase = {
   input: {

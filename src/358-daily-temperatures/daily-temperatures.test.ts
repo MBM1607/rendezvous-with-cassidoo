@@ -1,4 +1,5 @@
-import { dailyTemperatures } from "./daily-temperatures";
+import { describe, expect, test } from "vitest";
+import { dailyTemperatures } from "./daily-temperatures.js";
 
 type Test = {
   input: number[];

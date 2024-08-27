@@ -1,4 +1,5 @@
-import { scoreWordGame } from "./score-word-game";
+import { describe, expect, test } from "vitest";
+import { scoreWordGame } from "./score-word-game.js";
 
 type ScoreWordGameTestCase = {
   input: {

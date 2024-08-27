@@ -1,4 +1,5 @@
-import { canPlantFlowers } from "./can-plant-flowers";
+import { describe, expect, test } from "vitest";
+import { canPlantFlowers } from "./can-plant-flowers.js";
 
 type TestCase = {
   input: {

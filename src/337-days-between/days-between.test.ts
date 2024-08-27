@@ -1,4 +1,5 @@
-import { daysBetween } from "./days-between";
+import { describe, expect, test } from "vitest";
+import { daysBetween } from "./days-between.js";
 
 type DaysBetweenTestCase = {
   startDate: string;
@@ -31,7 +32,7 @@ const DAYS_BETWEEN_TEST_CASES: DaysBetweenTestCase[] = [
 
 describe("daysBetween", () => {
   DAYS_BETWEEN_TEST_CASES.forEach(({ startDate, endDate, output }) => {
-    it(`should return ${output} for ${startDate} and ${endDate}`, () => {
+    test(`should return ${output} for ${startDate} and ${endDate}`, () => {
       expect(daysBetween(startDate, endDate)).toEqual(output);
     });
   });

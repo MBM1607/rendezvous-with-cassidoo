@@ -1,4 +1,5 @@
-import { combineStrings } from "./combine-strings";
+import { describe, expect, test } from "vitest";
+import { combineStrings } from "./combine-strings.js";
 
 interface combineStringTest {
   input: [string[], number];
@@ -21,7 +22,7 @@ const combineStringTests: combineStringTest[] = [
 ];
 
 describe("testing combineStrings", () => {
-  it.each(combineStringTests)("should return correct combined strings", test => {
-    expect(combineStrings(...test.input)).toStrictEqual(test.output);
+  test.each(combineStringTests)("should return correct combined strings", t => {
+    expect(combineStrings(...t.input)).toStrictEqual(t.output);
   });
 });

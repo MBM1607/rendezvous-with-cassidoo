@@ -1,4 +1,5 @@
-import { binaryPalindrome } from "./binary-palindrome";
+import { describe, expect, test } from "vitest";
+import { binaryPalindrome } from "./binary-palindrome.js";
 
 interface BinaryPalindromeTestCase {
   input: number;
@@ -20,7 +21,7 @@ const ODD_SQUARE_SUM_TEST_CASES: BinaryPalindromeTestCase[] = [
 
 describe("binaryPalindrome", () => {
   ODD_SQUARE_SUM_TEST_CASES.forEach(({ input, expected }) => {
-    it(`should return ${expected} for ${input}`, () => {
+    test(`should return ${expected} for ${input}`, () => {
       expect(binaryPalindrome(input)).toEqual(expected);
     });
   });

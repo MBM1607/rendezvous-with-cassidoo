@@ -1,4 +1,7 @@
-import { mmmPie, Person } from "./mmm-pie";
+import { describe, expect, test } from "vitest";
+import { mmmPie } from "./mmm-pie.js";
+
+import type { Person } from "./mmm-pie.js";
 
 interface mmmPieTestCase {
   input: [people: Person[], piecesPerPie: number];

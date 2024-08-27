@@ -1,4 +1,5 @@
-import { replaceZeros } from "./replace-zeros";
+import { describe, expect, test } from "vitest";
+import { replaceZeros } from "./replace-zeros.js";
 
 interface replaceZerosTest {
   input: string;
@@ -25,10 +26,10 @@ const replaceZerosTests: replaceZerosTest[] = [
 ];
 
 describe("testing replaceZeros", () => {
-  it.each(replaceZerosTests)(
+  test.each(replaceZerosTests)(
     "should replace each consecutive run of the digit 0 with its length",
-    test => {
-      expect(replaceZeros(test.input)).toStrictEqual(test.output);
+    t => {
+      expect(replaceZeros(t.input)).toStrictEqual(t.output);
     },
   );
 });

@@ -1,3 +1,4 @@
+import { describe, expect, test } from "vitest";
 import { calculateExecutionTimes, type TaskEvent } from "./calculate-execution-times.js";
 
 type Task = "main" | "subTask1" | "subTask2";

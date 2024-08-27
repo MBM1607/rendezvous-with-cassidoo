@@ -1,4 +1,5 @@
-import { increasingSubsequence } from "./increasing-subsequence";
+import { describe, expect, test } from "vitest";
+import { increasingSubsequence } from "./increasing-subsequence.js";
 
 type Test = {
   sequence: number[];

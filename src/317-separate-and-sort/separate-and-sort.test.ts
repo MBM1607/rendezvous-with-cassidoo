@@ -1,4 +1,5 @@
-import { separateAndSort } from "./separate-and-sort";
+import { describe, expect, test } from "vitest";
+import { separateAndSort } from "./separate-and-sort.js";
 
 interface SeparateAndSortTestCase {
   input: number[];
@@ -25,7 +26,7 @@ const separateAndSortTestCases: SeparateAndSortTestCase[] = [
 
 describe("separateAndSort", () => {
   separateAndSortTestCases.forEach(({ input, output }) => {
-    it(`should return ${output} for array ${input}`, () => {
+    test(`should return ${output} for array ${input}`, () => {
       expect(separateAndSort(input)).toEqual(output);
     });
   });

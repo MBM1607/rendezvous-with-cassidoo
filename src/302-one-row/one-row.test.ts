@@ -1,4 +1,6 @@
-import { oneRow, KeyboardType, RowOption } from "./one-row";
+import { describe, expect, test } from "vitest";
+import type { KeyboardType, RowOption } from "./one-row.js";
+import { oneRow } from "./one-row.js";
 
 interface OneRowTestCase {
   input: {
@@ -125,7 +127,7 @@ const ONE_ROW_TEST_CASES: OneRowTestCase[] = [
 
 describe("oneRow", () => {
   ONE_ROW_TEST_CASES.forEach(({ input, output }) => {
-    it(`returns ${output} for ${JSON.stringify(input)}`, () => {
+    test(`returns ${output} for ${JSON.stringify(input)}`, () => {
       expect(oneRow(input.words, input.keyboardType, input.rowOption)).toEqual(output);
     });
   });

@@ -1,4 +1,5 @@
-import { wordLengthProduct } from "./word-length-product";
+import { describe, expect, test } from "vitest";
+import { wordLengthProduct } from "./word-length-product.js";
 
 type WorldLengthProductTest = {
   words: string[];
@@ -22,7 +23,7 @@ const WORD_LENGTH_PRODUCT_TEST_CASES: WorldLengthProductTest[] = [
 
 describe("wordLengthProduct", () => {
   WORD_LENGTH_PRODUCT_TEST_CASES.forEach(({ words, expected }) => {
-    it(`returns ${expected} for words ${words}`, () => {
+    test(`returns ${expected} for words ${words}`, () => {
       expect(wordLengthProduct(words)).toBe(expected);
     });
   });

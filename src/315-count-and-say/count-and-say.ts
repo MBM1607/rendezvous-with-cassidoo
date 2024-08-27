@@ -12,7 +12,7 @@ Example:
 ```
 */
 
-import { convertNumberToWords } from "../294-source-character-count/source-character-count";
+import { convertNumberToWords } from "../294-source-character-count/source-character-count.js";
 
 export const countAndSay = (input: number): string => {
   const numbers = [];

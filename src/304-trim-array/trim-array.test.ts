@@ -1,4 +1,5 @@
-import { trimArray } from "./trim-array";
+import { describe, expect, test } from "vitest";
+import { trimArray } from "./trim-array.js";
 
 interface trimArrayTestCase {
   input: [array: number[], piecesFromFront: number, piecesFromBack: number];

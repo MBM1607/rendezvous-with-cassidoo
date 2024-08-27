@@ -1,4 +1,5 @@
-import { fixInvertedPunctuation } from "./fix-inverted-punctuation";
+import { describe, expect, test } from "vitest";
+import { fixInvertedPunctuation } from "./fix-inverted-punctuation.js";
 
 type Test = {
   input: string;
@@ -22,7 +23,7 @@ const TESTS: Test[] = [
 
 describe("fixInvertedPunctuation", () => {
   TESTS.forEach(({ input, output }) => {
-    it(`should return ${output} for ${input}`, () => {
+    test(`should return ${output} for ${input}`, () => {
       expect(fixInvertedPunctuation(input)).toBe(output);
     });
   });

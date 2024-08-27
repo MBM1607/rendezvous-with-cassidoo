@@ -1,4 +1,5 @@
-import { scramble } from "./scramble";
+import { describe, expect, test } from "vitest";
+import { scramble } from "./scramble.js";
 
 const shuffleTests = [
   "A quick brown fox jumped over the lazy dog.",
@@ -12,7 +13,7 @@ const shuffleTests = [
 ];
 
 describe("testing shuffle", () => {
-  it.each(shuffleTests)("given a sentence, scramble the insides", test => {
+  test.each(shuffleTests)("given a sentence, scramble the insides", test => {
     expect(scramble(test)).not.toStrictEqual(test);
   });
 });

@@ -1,4 +1,5 @@
-import { capitalAfterVowel, capitalAfterVowelRegex } from "./capital-after-vowel";
+import { describe, expect, test } from "vitest";
+import { capitalAfterVowel } from "./capital-after-vowel.js";
 
 interface capitalAfterVowelTest {
   input: string;
@@ -39,13 +40,13 @@ const capitalAfterVowelTests: capitalAfterVowelTest[] = [
 ];
 
 describe("testing capitalAfterVowel", () => {
-  it.each(capitalAfterVowelTests)("should return correctly converted string", test => {
-    expect(capitalAfterVowel(test.input)).toStrictEqual(test.output);
+  test.each(capitalAfterVowelTests)("should return correctly converted string", t => {
+    expect(capitalAfterVowel(t.input)).toStrictEqual(t.output);
   });
 });
 
 describe("testing capitalAfterVowelRegex", () => {
-  it.each(capitalAfterVowelTests)("should return correctly converted string", test => {
-    expect(capitalAfterVowel(test.input)).toStrictEqual(test.output);
+  test.each(capitalAfterVowelTests)("should return correctly converted string", t => {
+    expect(capitalAfterVowel(t.input)).toStrictEqual(t.output);
   });
 });

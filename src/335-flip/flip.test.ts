@@ -1,4 +1,7 @@
-import { Direction, flip } from "./flip";
+import { describe, expect, test } from "vitest";
+import { flip } from "./flip.js";
+
+import type { Direction } from "./flip.js";
 
 type FlipTestCase = {
   input: {
@@ -43,7 +46,7 @@ const FLIP_TEST_CASES: FlipTestCase[] = [
 
 describe("flip", () => {
   FLIP_TEST_CASES.forEach(({ input: { array, direction }, output }) => {
-    it(`should flip ${direction}ly`, () => {
+    test(`should flip ${direction}ly`, () => {
       expect(flip(array, direction)).toEqual(output);
     });
   });

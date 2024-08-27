@@ -1,4 +1,5 @@
-import { faultyKeeb } from "./faulty-keyboard";
+import { describe, expect, test } from "vitest";
+import { faultyKeeb } from "./faulty-keyboard.js";
 
 interface faultyKeebTestCase {
   input: string;
