@@ -1,6 +1,3 @@
-[![Coverage Status](https://coveralls.io/repos/github/MBM1607/rendezvous-with-cassidoo/badge.svg?branch=main)](https://coveralls.io/github/MBM1607/rendezvous-with-cassidoo?branch=main)
-[![Automated Tests](https://github.com/MBM1607/rendezvous-with-cassidoo/actions/workflows/automated-tests.yml/badge.svg?event=push)](https://github.com/MBM1607/rendezvous-with-cassidoo/actions/workflows/automated-tests.yml)
-
 # Rendezvous With Cassidoo
 
 My answers to the Interview Questions of the [rendezvous with cassidoo](https://buttondown.email/cassidoo/archive) newsletter.
@@ -88,6 +85,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [365 - find-unused](src/365-find-unused/README.md)
 - [366 - calculate-execution-times](src/366-calculate-execution-times/README.md)
 - [367 - equal-letters-and-digits](src/367-equal-letters-and-digits/README.md)
+- [368 - max-pairs](src/368-max-pairs/README.md)
 
 </details>
 
