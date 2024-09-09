@@ -86,6 +86,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [366 - calculate-execution-times](src/366-calculate-execution-times/README.md)
 - [367 - equal-letters-and-digits](src/367-equal-letters-and-digits/README.md)
 - [368 - max-pairs](src/368-max-pairs/README.md)
+- [369 - min-rows](src/369-min-rows/README.md)
 
 </details>
 
