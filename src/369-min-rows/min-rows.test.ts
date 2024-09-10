@@ -22,7 +22,7 @@ const TEST_CASES: TestCase[] = [
       groups: [4, 8, 3, 5, 6],
       rowSize: 10,
     },
-    output: 4,
+    output: 3,
   },
   {
     input: {
@@ -37,6 +37,20 @@ const TEST_CASES: TestCase[] = [
       rowSize: 10,
     },
     output: 5,
+  },
+  {
+    input: {
+      groups: [1, 1, 1, 1, 1],
+      rowSize: 1,
+    },
+    output: 5,
+  },
+  {
+    input: {
+      groups: [19, 10, 12, 10, 24, 15, 10, 24, 18, 10],
+      rowSize: 25,
+    },
+    output: 7,
   },
 ];
 

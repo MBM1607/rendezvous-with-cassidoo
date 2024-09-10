@@ -15,7 +15,7 @@ a given row size!
 let rowSize = 10
 
 > minRows([4, 8, 3, 5, 6], rowSize)
-> 4
+> 3
 
 > minRows([4, 5, 4, 3, 3], rowSize)
 > 2

@@ -1,16 +1,22 @@
-export const minRows = (groups: number[], rowSize: number): number => {
-  let currentFilled = 0;
-  let rows = 0;
+type RowMap = {
+  filled: number;
+  unfilled: number;
+};
 
-  for (const group of groups) {
-    if (currentFilled + group > rowSize) {
-      rows++;
-      currentFilled = 0;
+export const minRows = (groups: number[], rowSize: number): number => {
+  let rowMap: RowMap[] = [];
+
+  groups: for (const group of groups.sort((a, b) => b - a)) {
+    for (let i = 0; i < rowMap.length; i++) {
+      const { filled, unfilled } = rowMap[i] as RowMap;
+
+      if (unfilled === 0 || filled + group > rowSize) continue;
+
+      rowMap[i] = { filled: filled + group, unfilled: unfilled - group };
+      continue groups;
     }
-    currentFilled += group;
+    rowMap.push({ filled: group, unfilled: rowSize - group });
   }
 
-  if (currentFilled > 0) rows++;
-
-  return rows;
+  return rowMap.length;
 };
