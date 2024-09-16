@@ -87,6 +87,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [367 - equal-letters-and-digits](src/367-equal-letters-and-digits/README.md)
 - [368 - max-pairs](src/368-max-pairs/README.md)
 - [369 - min-rows](src/369-min-rows/README.md)
+- [370 - ways-to-score](src/370-ways-to-score/README.md)
 
 </details>
 
