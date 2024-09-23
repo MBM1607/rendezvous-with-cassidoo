@@ -88,6 +88,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [368 - max-pairs](src/368-max-pairs/README.md)
 - [369 - min-rows](src/369-min-rows/README.md)
 - [370 - ways-to-score](src/370-ways-to-score/README.md)
+- [371 - min-laundry-loads](src/371-min-laundry-loads/README.md)
 
 </details>
 
