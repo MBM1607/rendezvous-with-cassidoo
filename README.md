@@ -2,7 +2,7 @@
 
 My answers to the Interview Questions of the [rendezvous with cassidoo](https://buttondown.email/cassidoo/archive) newsletter.
 
-Each directory is related to a issue and has its own tests.
+Each directory is related to an issue and has its own tests.
 
 I started this in the [issue #258](https://buttondown.email/cassidoo/archive/discovering-the-truth-about-ourselves-is-a/)!
 
