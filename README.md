@@ -91,6 +91,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [371 - min-laundry-loads](src/371-min-laundry-loads/README.md)
 - [373 - missing-ingredients](src/373-missing-ingredients/README.md)
 - [374 - generate-circle](src/374-generate-circle/README.md)
+- [375 - get-rss](src/375-get-rss/README.md)
 
 </details>
 
