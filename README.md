@@ -92,6 +92,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [373 - missing-ingredients](src/373-missing-ingredients/README.md)
 - [374 - generate-circle](src/374-generate-circle/README.md)
 - [375 - get-rss](src/375-get-rss/README.md)
+- [376 - yahtzee-round](src/376-yahtzee-round/README.md)
 
 </details>
 
