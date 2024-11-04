@@ -93,6 +93,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [374 - generate-circle](src/374-generate-circle/README.md)
 - [375 - get-rss](src/375-get-rss/README.md)
 - [376 - yahtzee-round](src/376-yahtzee-round/README.md)
+- [377 - group-anagrams](src/377-group-anagrams/README.md)
 
 </details>
 
