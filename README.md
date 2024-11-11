@@ -94,6 +94,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [375 - get-rss](src/375-get-rss/README.md)
 - [376 - yahtzee-round](src/376-yahtzee-round/README.md)
 - [377 - group-anagrams](src/377-group-anagrams/README.md)
+- [378 - see-buildings-left](src/378-see-buildings-left/README.md)
 
 </details>
 
