@@ -95,6 +95,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [376 - yahtzee-round](src/376-yahtzee-round/README.md)
 - [377 - group-anagrams](src/377-group-anagrams/README.md)
 - [378 - see-buildings-left](src/378-see-buildings-left/README.md)
+- [379 - max-the-stock](src/379-max-the-stock/README.md)
 
 </details>
 

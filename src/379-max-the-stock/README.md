@@ -1,25 +1,21 @@
-# 🍁 See Buildings Left
+# 📈 Max The Stock
 
-Interview question of the [issue #378 of rendezvous with cassidoo](https://buttondown.com/cassidoo/subscribers/fc81c7a7-33f0-4542-b71e-51d2d8cf909c/archive/stand-for-something-or-you-will-fall-for-anything).
+Interview question of the [issue #379 of rendezvous with cassidoo](https://buttondown.com/cassidoo/archive/you-may-delay-but-time-will-not-benjamin-franklin/).
 
 ## The Question
 
-Given a list of integers representing the heights of buildings, return the maximum number of
-buildings that can be seen when looking from the left. A building can see another building if
-it is taller than all the buildings to its left. The height of the tallest building is included
-in the count.
+Given an array of integers representing the stock prices of a company in
+chronological order, write a function that determines the maximum profit you can
+achieve by buying and selling the stock once. If no profit can be made, return 0.
 
 ### Example
 
 ```js
-seeBuildingsLeft([1,2,3,4,5])
-5
+> maxTheStock([7, 1, 5, 3, 6, 4])
+> 5 // (buy at 1, sell at 6)
 
-seeBuildingsLeft([5,4,3,2,1])
-1
-
-seeBuildingsLeft([3,7,8,3,6,1])
-3
+> maxTheStock([7, 6, 4, 3, 1])
+> 0 // (no profit possible)
 ```
 
 ## Solution
