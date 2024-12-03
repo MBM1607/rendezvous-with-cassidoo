@@ -96,6 +96,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [377 - group-anagrams](src/377-group-anagrams/README.md)
 - [378 - see-buildings-left](src/378-see-buildings-left/README.md)
 - [379 - max-the-stock](src/379-max-the-stock/README.md)
+- [381 - roll-call](src/381-roll-call/README.md)
 
 </details>
 
