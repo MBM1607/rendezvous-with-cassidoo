@@ -97,6 +97,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [378 - see-buildings-left](src/378-see-buildings-left/README.md)
 - [379 - max-the-stock](src/379-max-the-stock/README.md)
 - [381 - roll-call](src/381-roll-call/README.md)
+- [382 - wrap-gifts](src/382-wrap-gifts/README.md)
 
 </details>
 
