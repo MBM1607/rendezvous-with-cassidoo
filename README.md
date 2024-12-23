@@ -98,6 +98,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [379 - max-the-stock](src/379-max-the-stock/README.md)
 - [381 - roll-call](src/381-roll-call/README.md)
 - [382 - wrap-gifts](src/382-wrap-gifts/README.md)
+- [384 - count-perfectly-round-cookies](src/384-count-perfectly-round-cookies/README.md)
 
 </details>
 
