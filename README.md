@@ -99,6 +99,7 @@ I started this in the [issue #258](https://buttondown.email/cassidoo/archive/dis
 - [381 - roll-call](src/381-roll-call/README.md)
 - [382 - wrap-gifts](src/382-wrap-gifts/README.md)
 - [384 - count-perfectly-round-cookies](src/384-count-perfectly-round-cookies/README.md)
+- [385 - new-years-day](src/385-new-years-day/README.md)
 
 </details>
 
